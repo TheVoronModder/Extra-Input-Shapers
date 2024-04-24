@@ -20,8 +20,48 @@ then run KIAUH
 ### From the KIAUH menu select:
 
 6 ) Settings
+
 1 ) Set custom Klipper repository
+
 Select the number corresponding to DangerKlipper from the list shown
+
 Select 'Y' to confirm replacing your existing Klipper install
+
 Enter 'B' for back twice
+
 'Q' to quit
+
+```sudo reboot```
+
+SSH back into your printers pi
+
+we need to see what version of dangerklipper we installed.
+to do this while in your ssh terminal send this:
+
+```cd ~/klipper/```
+
+now your in your klipper directory.
+
+run this:
+
+```git branch```
+
+and then
+
+```git remote -v```
+
+if you get something like the image below it is simple to get the correct directory.
+
+![dangerklipper version](https://github.com/TheVoronModder/Extra-Input-Shapers/assets/142328467/0b711abe-55be-44d6-8117-9e4b7585d162)
+
+run these commands in the terminal:
+
+```git checkout bleeding-edge```
+```sudo systemctl restart klipper```
+
+Re connect to your pi via ssh and verify you have bleeding-edge installed by running:
+
+```cd ~/klipper/```
+```git branch```
+
+
