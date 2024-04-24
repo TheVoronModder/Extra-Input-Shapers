@@ -11,5 +11,8 @@ SO... Here we go:
 
 To do this, add the Danger Klipper repo to KIAUH's repo list and run the script with the following commands:
 
-YourCopyableTextblock    echo "DangerKlippers/danger-klipper" >> ~/kiauh/klipper_repos.txt
-~/kiauh/kiauh.sh
+```echo "DangerKlippers/danger-klipper" >> ~/kiauh/klipper_repos.txt```
+
+then run KIAUH
+
+```~/kiauh/kiauh.sh```
