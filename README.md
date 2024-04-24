@@ -11,11 +11,15 @@ SO... Here we go:
 
 To do this, add the Danger Klipper repo to KIAUH's repo list and run the script with the following commands:
 
-```echo "DangerKlippers/danger-klipper" >> ~/kiauh/klipper_repos.txt```
+```
+echo "DangerKlippers/danger-klipper" >> ~/kiauh/klipper_repos.txt
+```
 
 then run KIAUH
 
-```~/kiauh/kiauh.sh```
+```
+~/kiauh/kiauh.sh
+```
 
 ### From the KIAUH menu select:
 
@@ -31,24 +35,32 @@ Enter 'B' for back twice
 
 'Q' to quit
 
-```sudo reboot```
+```
+sudo reboot
+```
 
 SSH back into your printers pi
 
 we need to see what version of dangerklipper we installed.
 to do this while in your ssh terminal send this:
 
-```cd ~/klipper/```
+```
+cd ~/klipper/
+```
 
 now your in your klipper directory.
 
 run this:
 
-```git branch```
+```
+git branch
+```
 
 and then
 
-```git remote -v```
+```
+git remote -v
+```
 
 if you get something like the image below it is simple to get the correct directory.
 
@@ -56,8 +68,12 @@ if you get something like the image below it is simple to get the correct direct
 
 run these commands in the terminal:
 
-```git checkout bleeding-edge```
-```sudo systemctl restart klipper```
+```
+git checkout bleeding-edge
+```
+```
+sudo systemctl restart klipper
+```
 
 Re connect to your pi via ssh and verify you have bleeding-edge installed by running:
 
@@ -76,9 +92,15 @@ the process is the same for setting any MCU up for Klipper regardless of what yo
 
 ssh back into your pi if you left or closed it out.
 
-You should be in ```/klipper/``` directory.
+You should be in 
+```
+~/klipper/
+```
+directory.
 
-```make menuconfig```
+```
+make menuconfig
+```
 
 
 from here follow the recipe for your MCU but CHECK "High-precision stepping support (slow)"
