@@ -123,6 +123,39 @@ make
 
 Now to flash.....
 
+we need to find the correct serial by-id...
+
+```bash
+ls /dev/serial/by-id/*
+```
+
+The output should look similar to this:
+
+```/dev/serial/by-id/usb-Klipper_stm32f042x6_010001000C123456789123-if00```
+
+with this serial path you need to perform the flash command:
+
+```bash
+sudo systemctl stop klipper
+make flash FLASH_DEVICE=<serial path to the board>
+sudo systemctl start klipper
+```
+
+## for some reason if this does not work you can always use an sd card by copying the klippy.bin file and go that route. 
+
+# this is the time to reflash the RaspberryPi! yay?
+
+okay, seriously though, this part can be daunting for newbies, in all honesty its quite smiple. 
+
+ssh back into your pi. execute the following commands:
+
+```bash
+cd ~/klipper/
+make menuconfig
+```
+
+Then MAKE SURE YOU CHOOSE THE CORRECT THING HERE:
+
 
 
 
