@@ -107,10 +107,24 @@ directory.
 make menuconfig
 ```
 
-
-from here follow the recipe for your MCU but CHECK "High-precision stepping support (slow)"
+## from here follow the recipe for your MCU but CHECK "High-precision stepping support (slow)"
 
 ![danger klipper mcu bro](https://github.com/TheVoronModder/Extra-Input-Shapers/assets/142328467/97bb145a-76a5-4759-b360-c23606d18d49)
+
+hit "Q" to quit, "Y" for yes, we want to save. then
+
+```bash
+make clean
+```
+
+```bash
+make
+```
+
+Now to flash.....
+
+
+
 
 
 
