@@ -68,6 +68,22 @@ You should now see that your klipper version is now bleeding edge like the image
 
 ![dangerklipper version now bleeding edge](https://github.com/TheVoronModder/Extra-Input-Shapers/assets/142328467/d885768e-91e9-4c57-8329-c549e44fb43c)
 
+### Now the fun part - kind of..... reflashing your MCU!
+
+So, now we need to re-build and re-compile the firmware we did originally but this time were going to add 1 NEW option that was never there before....
+
+the process is the same for setting any MCU up for Klipper regardless of what you have...
+
+ssh back into your pi if you left or closed it out.
+
+You should be in ```/klipper/``` directory.
+
+```make menuconfig```
+
+
+from here follow the recipe for your MCU
+
+![danger klipper mcu bro](https://github.com/TheVoronModder/Extra-Input-Shapers/assets/142328467/97bb145a-76a5-4759-b360-c23606d18d49)
 
 
 
