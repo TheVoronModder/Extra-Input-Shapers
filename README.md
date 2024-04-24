@@ -64,4 +64,10 @@ Re connect to your pi via ssh and verify you have bleeding-edge installed by run
 ```cd ~/klipper/```
 ```git branch```
 
+You should now see that your klipper version is now bleeding edge like the image below:
+
+![dangerklipper version now bleeding edge](https://github.com/TheVoronModder/Extra-Input-Shapers/assets/142328467/d885768e-91e9-4c57-8329-c549e44fb43c)
+
+
+
 
