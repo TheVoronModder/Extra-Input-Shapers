@@ -16,3 +16,12 @@ To do this, add the Danger Klipper repo to KIAUH's repo list and run the script 
 then run KIAUH
 
 ```~/kiauh/kiauh.sh```
+
+### From the KIAUH menu select:
+
+6 ) Settings
+1 ) Set custom Klipper repository
+Select the number corresponding to DangerKlipper from the list shown
+Select 'Y' to confirm replacing your existing Klipper install
+Enter 'B' for back twice
+'Q' to quit
