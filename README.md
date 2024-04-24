@@ -11,14 +11,14 @@ SO... Here we go:
 
 To do this, add the Danger Klipper repo to KIAUH's repo list and run the script with the following commands:
 
-```
+```bash
 echo "DangerKlippers/danger-klipper" >> ~/kiauh/klipper_repos.txt
 ~/kiauh/kiauh.sh
 ```
 
 then run KIAUH
 
-```
+```bash
 ~/kiauh/kiauh.sh
 ```
 
