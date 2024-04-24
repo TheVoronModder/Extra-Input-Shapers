@@ -36,7 +36,7 @@ Enter 'B' for back twice
 
 'Q' to quit
 
-```
+```bash
 sudo reboot
 ```
 
@@ -45,7 +45,7 @@ SSH back into your printers pi
 we need to see what version of dangerklipper we installed.
 to do this while in your ssh terminal send this:
 
-```
+```bash
 cd ~/klipper/
 ```
 
@@ -53,13 +53,13 @@ now your in your klipper directory.
 
 run this:
 
-```
+```bash
 git branch
 ```
 
 and then
 
-```
+```bash
 git remote -v
 ```
 
@@ -69,17 +69,21 @@ if you get something like the image below it is simple to get the correct direct
 
 run these commands in the terminal:
 
-```
+```bash
 git checkout bleeding-edge
 ```
-```
+```bash
 sudo systemctl restart klipper
 ```
 
 Re connect to your pi via ssh and verify you have bleeding-edge installed by running:
 
-```cd ~/klipper/```
-```git branch```
+```bash
+cd ~/klipper/
+```
+```bash
+git branch
+```
 
 You should now see that your klipper version is now bleeding edge like the image below:
 
@@ -94,12 +98,12 @@ the process is the same for setting any MCU up for Klipper regardless of what yo
 ssh back into your pi if you left or closed it out.
 
 You should be in 
-```
+```bash
 ~/klipper/
 ```
 directory.
 
-```
+```bash
 make menuconfig
 ```
 
