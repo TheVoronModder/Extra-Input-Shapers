@@ -81,7 +81,7 @@ You should be in ```/klipper/``` directory.
 ```make menuconfig```
 
 
-from here follow the recipe for your MCU
+from here follow the recipe for your MCU but CHECK "High-precision stepping support (slow)"
 
 ![danger klipper mcu bro](https://github.com/TheVoronModder/Extra-Input-Shapers/assets/142328467/97bb145a-76a5-4759-b360-c23606d18d49)
 
