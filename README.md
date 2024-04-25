@@ -1,6 +1,8 @@
 
 ![awesomeklipper](https://github.com/TheVoronModder/Extra-Input-Shapers/assets/142328467/73336a9d-4fbf-4cd4-89a1-1693bf5a1230)
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 Before we get started I need to give special thanks / shoutout to the members who helped me get my bleeding-edge version of danger klipper working and the IS values working right with Shake&Tune.
 
 * Thank you **rogerlz** for helping me understand the issues and installation of bleeding-edge!
