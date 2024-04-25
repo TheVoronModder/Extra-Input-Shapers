@@ -182,6 +182,7 @@ sudo usermod -a -G tty pi
 ```
 
 # Now we are ready to roll back Shake&Tune, yes ROLLBACK!
+### There was a breaking change in the most recent version of Klipper that had to be accounted for in Shake&Tune v2.6+. But this also broke compatibility with older version and the bleeding edge branch wasn't updated since then. So at the moment it can't work so we will rollback the software? firmware? whatever, were rolling it back for these sweet extra Input Shaper options....
 
 To do this we need to get out of the klipper file by using this command:
 
@@ -191,6 +192,20 @@ cd ..
 ```
 
 ## (Yes, 2x just for good measure, Robert from FizzyTech Discord says to do it 2x so we do it 2x)
+
+We need to rollback Shake&Tune, to do this run this command:
+
+```bash
+cd/home/pi/klippain_shaketune/
+```
+
+now we need to run this command:
+
+```bash
+git checkout v2.5.0
+```
+
+
 
 
 
