@@ -11,7 +11,7 @@ Before we get started I need to give special thanks / shoutout to the members wh
 
 * Thank you **Robert** for helping me learn linux systems and commands better!
 
-* Thank you to both the Klipper Dev team and the Danger-Klipper Dev team for your continued work and support of the community!
+* Thank you to both the **Klipper Dev team** and the **Danger-Klipper Dev team** for your continued work and support of the community!
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
