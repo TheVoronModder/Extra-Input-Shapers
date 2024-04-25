@@ -3,9 +3,15 @@
 
 Before we get started I need to give special thanks / shoutout to the members who helped me get my bleeding-edge version of danger klipper working and the IS values working right with Shake&Tune.
 
-Thank you **rogerlz** for helping me understand the issues and installation of bleeding-edge!
-Thank you **Frix_x** for helping me understand the issue with Shake&Tune and bleeding-edge version and how to roll it back!
-Tahnk you **Robert** for helping me learn linux systems and commands better!
+* Thank you **rogerlz** for helping me understand the issues and installation of bleeding-edge!
+
+* Thank you **Frix_x** for helping me understand the issue with Shake&Tune and bleeding-edge version and how to roll it back!
+
+* Thank you **Robert** for helping me learn linux systems and commands better!
+
+* Thank you to both the Klipper Dev team and the Danger-Klipper Dev team for your continued work and support of the community!
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
 # Wondering how people have Shake&Tune "extra" results for Input Shaping? What is "SMOOTH" ya ya, well this is the place to help you.
 
