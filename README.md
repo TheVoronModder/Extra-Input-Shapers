@@ -1,4 +1,6 @@
-### This guide assumes you already have dependencies installed on your printer, this is more of an "upgrade" guide not a first time install guide, certain things such as adxl configuration and setting up your pi as a secondary mcu are NOT covered in this guide
+### NOTE! -- This guide assumes you already have dependencies installed on your printer, this is more of an "upgrade" guide not a first time install guide, certain things such as adxl configuration and setting up your pi as a secondary mcu are NOT covered in this guide
+
+---------------------------------------------------------------------------------------------------------------------------------------
 ![awesomeklipper](https://github.com/TheVoronModder/Extra-Input-Shapers/assets/142328467/73336a9d-4fbf-4cd4-89a1-1693bf5a1230)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
