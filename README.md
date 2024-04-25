@@ -1,6 +1,12 @@
 
 ![awesomeklipper](https://github.com/TheVoronModder/Extra-Input-Shapers/assets/142328467/73336a9d-4fbf-4cd4-89a1-1693bf5a1230)
 
+Before we get started I need to give special thanks / shoutout to the members who helped me get my bleeding-edge version of danger klipper working and the IS values working right with Shake&Tune.
+
+Thank you **rogerlz** for helping me understand the issues and installation of bleeding-edge!
+Thank you **Frix_x** for helping me understand the issue with Shake&Tune and bleeding-edge version and how to roll it back!
+Tahnk you **Robert** for helping me learn linux systems and commands better!
+
 # Wondering how people have Shake&Tune "extra" results for Input Shaping? What is "SMOOTH" ya ya, well this is the place to help you.
 
 ## Keep in mind I am not advertising any sort of "tech support" whatsoever, and just like you I learn new things every day. The problem I have is once I set my eye on something I work tirelessly around the clock to get things working. With that being said there is probably an easier way to do this than the path I took however, my IS shake&tune works with smooth IS.
