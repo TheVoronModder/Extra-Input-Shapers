@@ -156,6 +156,43 @@ make menuconfig
 
 Then MAKE SURE YOU CHOOSE THE CORRECT THING HERE:
 
+![rpi flashing](https://github.com/TheVoronModder/Extra-Input-Shapers/assets/142328467/ff3f21a1-96ab-43b5-8807-c6088402a58e)
+
+once that is done hit "Q" then "Y"
+
+Now we need to build and install the new microcontroller architecture by running:
+
+```bash
+make clean
+make
+```
+
+Then 
+
+```bash
+sudo service klipper stop
+make flash
+sudo service klipper start
+```
+
+### if you have issues with "permission denied" you need to add your user to the tty group according to klipper docs you need to run this command to add the "pi" user to the tty group
+
+```bash
+sudo usermod -a -G tty pi
+```
+
+# Now we are ready to roll back Shake&Tune, yes ROLLBACK!
+
+To do this we need to get out of the klipper file by using this command:
+
+```bash
+cd ..
+cd ..
+```
+
+## (Yes, 2x just for good measure, Robert from FizzyTech Discord says to do it 2x so we do it 2x)
+
+
 
 
 
