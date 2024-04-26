@@ -218,6 +218,44 @@ cd ..
 
 ## (Yes, 2x just for good measure, Robert from FizzyTech Discord says to do it 2x so we do it 2x)
 
+---------------------------------------------------
+
+## you may skip this section if you already have adxl configured on your Rpi if not follow these steps:
+
+ssh back if your not there already.....
+
+```bash
+sudo apt update
+sudo apt install python3-numpy python3-matplotlib libatlas-base-dev libopenblas-dev
+```
+
+THEN:
+
+```bash
+~/klippy-env/bin/pip install -v numpy
+```
+
+If using Raspberry pi or CM4 we need to set up the host as a secondary MCU the klipper_mcu process has to run before the klippy stuff.
+
+do this:
+
+```bash
+cd ~/klipper/
+sudo cp ./scripts/klipper-mcu.service /etc/systemd/system/
+sudo systemctl enable klipper-mcu.service
+```
+
+
+
+
+
+
+
+
+
+
+
+
 We need to rollback Shake&Tune, to do this run this command:
 
 ```bash
