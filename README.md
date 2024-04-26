@@ -220,7 +220,7 @@ cd ..
 
 ---------------------------------------------------
 
-## you may skip this section if you already have adxl configured on your Rpi if not follow these steps:
+# you may skip this section if you already have adxl configured on your Rpi if not follow these steps:
 
 ssh back if your not there already.....
 
@@ -245,6 +245,7 @@ sudo cp ./scripts/klipper-mcu.service /etc/systemd/system/
 sudo systemctl enable klipper-mcu.service
 ```
 
+-------------------------------------------------------
 
 
 
