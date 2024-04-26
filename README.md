@@ -247,15 +247,13 @@ sudo systemctl enable klipper-mcu.service
 
 -------------------------------------------------------
 
+# if you have not installed Frix_x "Shake&Tune" its quite simple.
 
+its best to follow frix_x instructions here:
 
+https://github.com/Frix-x/klippain-shaketune?tab=readme-ov-file#installation
 
-
-
-
-
-
-
+-------------------------------------------------------
 
 We need to rollback Shake&Tune, to do this run this command:
 
