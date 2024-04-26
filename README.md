@@ -165,13 +165,12 @@ DFU MODE (BOOT0 + Reset)
  make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32h723<YOUR INFO HERE>
 ```
 as long as you see "FILE DOWNLOADED SUCCESSFULLY" you are good.
+
 ---------------------------------------------------------------
 
-## for some reason if this does not work you can always use an sd card by copying the klippy.bin file and go that route. 
 
-# this is the time to reflash the RaspberryPi! yay?
+# This is the time to reflash the Raspberry Pi! yay?
 
-okay, seriously though, this part can be daunting for newbies, in all honesty its quite smiple. 
 
 ssh back into your pi. execute the following commands:
 
