@@ -149,13 +149,22 @@ The output should look similar to this:
 
 ```/dev/serial/by-id/usb-Klipper_stm32f042x6_010001000C123456789123-if00```
 
-with this serial path you need to perform the flash command:
+with this serial path you need to perform the flash command: (Octopus)
 
 ```bash
 sudo systemctl stop klipper
 make flash FLASH_DEVICE=<serial path to the board>
 sudo systemctl start klipper
 ```
+
+For Manta m8p and CM4 do this instead:
+
+DFU MODE (BOOT0 + Reset)
+
+```bash
+ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32h723<YOUR INFO HERE>
+```
+as long as you see "FILE DOWNLOADED SUCCESSFULLY" your good.
 
 ## for some reason if this does not work you can always use an sd card by copying the klippy.bin file and go that route. 
 
