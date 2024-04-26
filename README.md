@@ -157,7 +157,7 @@ make flash FLASH_DEVICE=<serial path to the board>
 sudo systemctl start klipper
 ```
 -------------------------------------------------------------
-###For Manta m8p and CM4 do this instead:
+### For Manta m8p and CM4 do this instead:
 
 DFU MODE (BOOT0 + Reset)
 
@@ -201,7 +201,7 @@ make flash
 sudo service klipper start
 ```
 
-### if you have issues with "permission denied" you need to add your user to the tty group according to klipper docs you need to run this command to add the "pi" user to the tty group
+### If you have issues with "permission denied" you need to add your user to the tty group according to klipper docs you need to run this command to add the "pi" user to the tty group
 
 ```bash
 sudo usermod -a -G tty pi
